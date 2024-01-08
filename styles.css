@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(150deg, rgb(128, 82, 236), rgb(200, 97, 255));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 2px solid white;
+  width: 40%;
+  min-width: 450px;
+  padding: 30px 40px;
+}
+#newtask {
+  position: relative;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#newtask input {
+  width: 70%;
+  height: 40%;
+  font-size: 15px;
+  border: 2px solid rgb(209, 211, 212);
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  position: relative;
+  border-radius: 5px;
+}
+
+#newtask input:focus {
+  outline: none;
+  border-color: rgb(200, 97, 255);
+}
+
+#newtask button {
+  position: relative;
+  width: 20%;
+  height: 40%;
+  float: right;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(187, 103, 233);
+  font-weight: 600;
+  position: relative;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+#newtask button:hover {
+  color: rgb(187, 103, 233);
+  background-color: transparent;
+  border: 1px solid rgb(187, 103, 233);
+  box-shadow: 2px 2px rgb(187, 103, 233, 0.3);
+}
+
+#tasks {
+  background-color: rgb(255, 255, 255);
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: relative;
+}
